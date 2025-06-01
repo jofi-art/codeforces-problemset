@@ -224,12 +224,10 @@ using namespace std;
 
 int main(){
     int w;
-    cin>>w;
-    if(EsPar(w) && w>2){
-        cout<<"YES";
-    }
-    else{
-        cout<<"NO";
-    }
+    in(w);
+    if(EsPar(w) && w>2)
+        out("YES");
+    else
+        out("NO");
     return 0;
 }
