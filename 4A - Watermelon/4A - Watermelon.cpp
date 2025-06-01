@@ -223,6 +223,13 @@ using namespace std;
 /// THE CODE STARTS HERE
 
 int main(){
-    
+    int w;
+    cin>>w;
+    if(EsPar(w) && w>2){
+        cout<<"YES";
+    }
+    else{
+        cout<<"NO";
+    }
     return 0;
 }
