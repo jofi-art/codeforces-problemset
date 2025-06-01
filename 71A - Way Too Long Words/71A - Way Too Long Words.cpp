@@ -223,5 +223,15 @@ using namespace std;
 /// THE CODE STARTS HERE
 
 int main(){
+    int n;
+    in(n);
+    YtoX(i,0,n){
+        string temp;
+        in(temp);
+        if(sz(temp)>10)
+            cout<<temp[0]<<sz(temp)-2<<temp[sz(temp)-1]<<endl;
+        else
+            out(temp)<<endl;
+    }
     return 0;
 }
